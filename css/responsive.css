@@ -31,7 +31,7 @@
 		left: 16px;
 	}
 }
-@media screen (min-width: 579px) and (max-width: 768px) {
+@media screen and (min-width: 579px) and (max-width: 768px) {
 	.logo__static{
 		position: absolute;
 		top: -10px;
