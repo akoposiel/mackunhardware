@@ -73,6 +73,11 @@
 		
 		left: 40px;
 	}
+	.photo-grid .grid-item:hover img {
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    transform: scale(1.2);
+}
 }
 @media screen and (max-width: 480px) {
 	.logo__static{
@@ -119,9 +124,9 @@
 	}
 	
 }
-@media screen and (max-width: 320px){
+@media handheld and (min-width: 320px){
 	h1, h2, h3, h4, h5, h6 {
-    font-size: 17px;
+    font-size: 17px !important;
 	}
 	.overlay_headertext {
 		font-size: 14px;
