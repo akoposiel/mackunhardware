@@ -73,6 +73,11 @@
 		
 		left: 40px;
 	}
+	.photo-grid .grid-item:hover img {
+		-webkit-transform: scale(1.4);
+		-moz-transform: scale(1.4);
+		transform: scale(1.2);
+	}
 }
 @media screen and (max-width: 480px) {
 	.logo__static{
