@@ -31,7 +31,7 @@
 		left: 16px;
 	}
 }
-@media screen and (max-width: 768px) {
+@media screen (min-width: 579px) and (max-width: 768px) {
 	.logo__static{
 		position: absolute;
 		top: -10px;
@@ -74,10 +74,10 @@
 		left: 40px;
 	}
 	.photo-grid .grid-item:hover img {
-    -webkit-transform: scale(1.4);
-    -moz-transform: scale(1.4);
-    transform: scale(1.2);
-}
+		-webkit-transform: scale(1.4);
+		-moz-transform: scale(1.4);
+		transform: scale(1.2);
+	}
 }
 @media screen and (max-width: 480px) {
 	.logo__static{
